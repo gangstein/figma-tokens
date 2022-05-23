@@ -1,8 +1,4 @@
 {
-  "34": {
-    "value": "34",
-    "type": "sizing"
-  },
   "100": {
     "value": "Thin",
     "type": "fontWeights"
@@ -1253,8 +1249,8 @@
     "value": "72",
     "type": "sizing"
   },
-  "sz-88": {
-    "value": "88",
+  "sz-80": {
+    "value": "80",
     "type": "sizing"
   },
   "sz-96": {
@@ -1275,6 +1271,10 @@
   },
   "sz-128": {
     "value": "128",
+    "type": "sizing"
+  },
+  "sz-131": {
+    "value": "131",
     "type": "sizing"
   },
   "sz-144": {
@@ -1301,8 +1301,8 @@
     "value": "184",
     "type": "sizing"
   },
-  "sz-200": {
-    "value": "200",
+  "sz-199": {
+    "value": "199",
     "type": "sizing"
   },
   "sz-224": {

@@ -28,7 +28,7 @@ const formatValue = ({ type, value }) => {
   }
 
   if (type === 'borderRadius') {
-    return `calc(${value.split(' * ').map((v, i) => i > 0 ? ` * ${v}px` : `${v}px`).join('')})`
+    return `calc(${value.split(' * ').map((v, i) => i === 0 ? `${v}px` : ` * ${v}`).join('')})`
   }
 
   if (['fontSizes', 'sizing', 'spacing', 'borderWidth', 'letterSpacing'].includes(type)) {
