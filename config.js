@@ -1,14 +1,13 @@
 const StyleDictionary = require('style-dictionary');
 const { cssFormatter, scssFormatter } = require('./format');
 
-StyleDictionary.registerFormat({
-  name: 'scssFormat',
-  formatter: scssFormatter,
-});
-
-StyleDictionary.registerFormat({
-  name: 'cssFormat',
-  formatter: cssFormatter,
+StyleDictionary
+  .registerFormat({
+    name: 'scssFormat',
+    formatter: scssFormatter,
+  }).registerFormat({
+    name: 'cssFormat',
+    formatter: cssFormatter,
 });
 
 module.exports = {
