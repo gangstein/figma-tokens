@@ -3,13 +3,16 @@
   "version": "1.1.1",
   "description": "",
   "main": "config.js",
+  "type": "module",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colord": "^2.9.2",
     "hex-to-rgba": "^2.0.1",
-    "style-dictionary": "^3.7.0"
+    "style-dictionary": "^3.7.0",
+    "string-math": "^1.2.2"
   }
 }
